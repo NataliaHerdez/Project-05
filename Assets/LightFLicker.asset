@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: LightFLicker
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":229.0205,"y":829.3006},"zoom":0.2999999,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"5bd0f633-1b6d-42f4-9f94-55e2fe4de3cc","$version":"A","$type":"Unity.VisualScripting.Start"},{"type":"UnityEngine.Material","value":null,"defaultValues":{},"position":{"x":574.0,"y":-198.0},"guid":"941642cd-1831-4d8d-93ef-b0483b56b84d","$version":"A","$type":"Unity.VisualScripting.Literal"},{"coroutine":false,"defaultValues":{},"position":{"x":-678.0,"y":18.0},"guid":"fd62b65a-aac8-4a38-8d30-21037d71f5eb","$version":"A","$type":"Unity.VisualScripting.Update"},{"type":"UnityEngine.Material","value":{"$content":0,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-111.0,"y":257.0},"guid":"33a077b6-69e0-47c0-96a7-5696d15f17aa","$version":"A","$type":"Unity.VisualScripting.Literal"},{"chainable":false,"member":{"name":"a","parameterTypes":null,"targetType":"UnityEngine.Color","targetTypeName":"UnityEngine.Color","$version":"A"},"defaultValues":{"target":{"r":1.0,"g":1.0,"b":1.0,"a":0.0,"$type":"UnityEngine.Color"},"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":349.0,"y":259.0},"guid":"e52da79b-ec30-4fe8-8f0f-f30ad13526c5","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"17"},{"defaultValues":{},"position":{"x":299.0,"y":440.0},"guid":"6fbfd366-bbd2-47b4-8964-7117e19cf0cf","$version":"A","$type":"Unity.VisualScripting.This"},{"member":{"name":"color","parameterTypes":null,"targetType":"UnityEngine.Material","targetTypeName":"UnityEngine.Material","$version":"A"},"defaultValues":{"target":null},"position":{"x":143.0,"y":368.0},"guid":"d7c06f08-8b40-4d73-a48a-fdbfb1951b60","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"22"},{"chainable":false,"member":{"name":"color","parameterTypes":null,"targetType":"UnityEngine.Material","targetTypeName":"UnityEngine.Material","$version":"A"},"defaultValues":{"target":{"$content":1,"$type":"UnityEngine.Object"},"input":{"r":1.0,"g":1.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"}},"position":{"x":593.0,"y":278.0},"guid":"2ee9ea9e-a76b-4822-86e9-04ab4e169d16","$version":"A","$type":"Unity.VisualScripting.SetMember"},{"sourceUnit":{"$ref":"22"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"b6d074f5-4850-4dd9-a0d8-9613dfc39b3b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2100000, guid: 0d30f80ef41f3614eadbc3f7377341cf, type: 2}
+    - {fileID: 2100000, guid: 0d30f80ef41f3614eadbc3f7377341cf, type: 2}
